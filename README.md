@@ -1,24 +1,28 @@
  官网链接：https://youxuebao.com.cn
 
-管理后台演示地址：[https://demoadmin.youxuebao.com.cn/admin](https://gitee.com/link?target=https%3A%2F%2Fdemoadmin.youxuebao.com.cn%2Fadmin)
+管理后台演示地址：https://demoadmin.youxuebao.com.cn/admin
 
-商户后台演示地址：[https://demomanage.youxuebao.com.cn/platform](https://gitee.com/link?target=https%3A%2F%2Fdemomanage.youxuebao.com.cn%2Fplatform)
+商户后台演示地址：https://demomanage.youxuebao.com.cn/platform
 
-前端演示地址：[https://demo.youxuebao.com.cn](https://gitee.com/link?target=https%3A%2F%2Fdemo.youxuebao.com.cn)
+前端演示地址：https://demo.youxuebao.com.cn
 
 演示账号：1234Qwer 密码：1234Qwer!
 
 图片示例：
 
-![img](https://i-blog.csdnimg.cn/direct/a7b65bd0f69e48728a31edfc622331af.jpeg)
+![输入图片说明](https://i-blog.csdnimg.cn/direct/a7b65bd0f69e48728a31edfc622331af.jpeg)
 
-![img](https://i-blog.csdnimg.cn/direct/5d4dabc59933462cb4a6e1438d68af48.jpeg)
+![输入图片说明](https://i-blog.csdnimg.cn/direct/5d4dabc59933462cb4a6e1438d68af48.jpeg)
 
-联系我们：微信扫码添加好友
+![输入图片说明](https://i-blog.csdnimg.cn/direct/b29fa4d8dc23400d88ac66618f640c21.jpeg)
 
-![img](https://gitee.com/xiaolaohu11/wechat/raw/master/image1.png)
+![输入图片说明](https://i-blog.csdnimg.cn/direct/660e8b5a2e80458fb6812d5d4d238251.jpeg)
 
+![输入图片说明](https://i-blog.csdnimg.cn/direct/34dca049149e41f7905259a5d80f79a2.jpeg)
 
+需要前后端源码和数据库可以联系我们
+
+![输入图片说明](https://demo.youxuebao.com.cn/wechatmini/10ac3d82_13560.png)
 
 历经数月开发、测试与微信官方审核，**优学宝知识付费微信小程序**现已正式上线运营！
 
