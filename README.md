@@ -10,9 +10,9 @@
 
 图片示例：
 
-![img](https://i-blog.csdnimg.cn/direct/a7b65bd0f69e48728a31edfc622331af.jpeg)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+![img](https://i-blog.csdnimg.cn/direct/a7b65bd0f69e48728a31edfc622331af.jpeg)
 
-![img](https://i-blog.csdnimg.cn/direct/5d4dabc59933462cb4a6e1438d68af48.jpeg)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+![img](https://i-blog.csdnimg.cn/direct/5d4dabc59933462cb4a6e1438d68af48.jpeg)
 
 联系我们：微信扫码添加好友
 
