@@ -1,0 +1,324 @@
+
+.app-container.data-v-8abb3ef4 {
+		width: 100%;
+		height: 100vh;
+		background-color: #f8fafc;
+}
+.scroll-container.data-v-8abb3ef4 {
+		width: 100%;
+		height: 100%;
+}
+.history-list.data-v-8abb3ef4 {
+		padding: 20rpx 24rpx;
+}
+
+	/* Tab 导航 */
+.tab-nav.data-v-8abb3ef4 {
+		margin-bottom: 20rpx;
+		background-color: #fff;
+		border-radius: 16rpx;
+		padding: 8rpx 0;
+		box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
+}
+.tabs-scroll.data-v-8abb3ef4 {
+		width: 100%;
+		white-space: nowrap;
+}
+.tabs-wrapper.data-v-8abb3ef4 {
+		display: flex;
+		align-items: center;
+		gap: 4rpx;
+}
+.tab-item.data-v-8abb3ef4 {
+		display: inline-flex;
+		align-items: center;
+		flex-direction: column;
+		gap: 6rpx;
+		padding: 20rpx 28rpx;
+		position: relative;
+		cursor: pointer;
+}
+.tab-text.data-v-8abb3ef4 {
+		font-size: 28rpx;
+		color: #64748b;
+		font-weight: 450;
+		transition: all 0.2s ease;
+}
+.tab-item--active .tab-text.data-v-8abb3ef4 {
+		color: #2c62ef;
+		font-weight: 600;
+}
+.tab-indicator.data-v-8abb3ef4 {
+		position: absolute;
+		bottom: 8rpx;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 36rpx;
+		height: 5rpx;
+		background: linear-gradient(135deg, #2c62ef, #1a4bd1);
+		border-radius: 3rpx;
+}
+
+	/* 加载状态 */
+.loading-state.data-v-8abb3ef4 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 120rpx 0;
+}
+.loading-text.data-v-8abb3ef4 {
+		font-size: 28rpx;
+		color: #999;
+}
+
+	/* 空状态 */
+.empty-state.data-v-8abb3ef4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 120rpx 0;
+}
+.empty-image.data-v-8abb3ef4 {
+		width: 240rpx;
+		height: 240rpx;
+		margin-bottom: 32rpx;
+		opacity: 0.5;
+}
+.empty-text.data-v-8abb3ef4 {
+		font-size: 28rpx;
+		color: #999;
+		margin-bottom: 12rpx;
+}
+.empty-desc.data-v-8abb3ef4 {
+		font-size: 24rpx;
+		color: #ccc;
+}
+
+	/* 讲师列表 */
+.follow-list.data-v-8abb3ef4 {
+		display: flex;
+		flex-direction: column;
+		gap: 16rpx;
+}
+.lecturer-card.data-v-8abb3ef4 {
+		background: #ffffff;
+		border-radius: 16rpx;
+		padding: 24rpx;
+		box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
+}
+.lecturer-content.data-v-8abb3ef4 {
+		display: flex;
+		align-items: center;
+		gap: 20rpx;
+}
+.lecturer-avatar.data-v-8abb3ef4 {
+		width: 100rpx;
+		height: 100rpx;
+		border-radius: 50rpx;
+		flex-shrink: 0;
+		background: #f1f5f9;
+}
+.lecturer-info.data-v-8abb3ef4 {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 8rpx;
+		overflow: hidden;
+}
+.lecturer-name.data-v-8abb3ef4 {
+		font-size: 30rpx;
+		font-weight: 600;
+		color: #1a1a1a;
+}
+.lecturer-desc.data-v-8abb3ef4 {
+		font-size: 24rpx;
+		color: #999;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+}
+.lecturer-meta.data-v-8abb3ef4 {
+		font-size: 22rpx;
+		color: #999;
+		display: flex;
+		align-items: center;
+		gap: 8rpx;
+}
+.meta-divider.data-v-8abb3ef4 {
+		color: #ddd;
+		font-size: 22rpx;
+}
+.lecturer-action.data-v-8abb3ef4 {
+		flex-shrink: 0;
+}
+.unfollow-btn.data-v-8abb3ef4 {
+		padding: 10rpx 24rpx;
+		font-size: 24rpx;
+		color: #f56c6c;
+		border: 1rpx solid #f56c6c;
+		border-radius: 30rpx;
+		background: #fff;
+}
+
+	/* 内容列表 */
+.footprint-list.data-v-8abb3ef4 {
+		display: flex;
+		flex-direction: column;
+		gap: 16rpx;
+}
+.footprint-card.data-v-8abb3ef4 {
+		display: flex;
+		flex-direction: row;
+		background: #ffffff;
+		border-radius: 16rpx;
+		overflow: hidden;
+		box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
+		padding: 16rpx;
+}
+.fp-cover.data-v-8abb3ef4 {
+		position: relative;
+		width: 200rpx;
+		height: 160rpx;
+		flex-shrink: 0;
+		border-radius: 12rpx;
+		overflow: hidden;
+		margin-right: 16rpx;
+}
+.fp-cover-img.data-v-8abb3ef4 {
+		width: 100%;
+		height: 100%;
+		background: #f1f5f9;
+}
+.fp-type-badge.data-v-8abb3ef4 {
+		position: absolute;
+		top: 8rpx;
+		left: 8rpx;
+		padding: 2rpx 10rpx;
+		border-radius: 16rpx;
+		font-size: 18rpx;
+		color: #fff;
+}
+.badge-course.data-v-8abb3ef4 {
+		background: linear-gradient(135deg, #ff6b3d, #ff3b30);
+}
+.badge-courseware.data-v-8abb3ef4 {
+		background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+.badge-exam.data-v-8abb3ef4 {
+		background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+.badge-default.data-v-8abb3ef4 {
+		background: #999;
+}
+.fp-file-icon-wrapper.data-v-8abb3ef4 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 200rpx;
+		height: 160rpx;
+		flex-shrink: 0;
+		margin-right: 16rpx;
+		background: #f1f5f9;
+		border-radius: 12rpx;
+}
+.fp-file-icon.data-v-8abb3ef4 {
+		width: 80rpx;
+		height: 80rpx;
+}
+.fp-info.data-v-8abb3ef4 {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 10rpx;
+		overflow: hidden;
+}
+.fp-title-row.data-v-8abb3ef4 {
+		display: flex;
+		align-items: center;
+		gap: 8rpx;
+}
+.fp-featured-badge.data-v-8abb3ef4 {
+		flex-shrink: 0;
+		padding: 2rpx 10rpx;
+		background: linear-gradient(135deg, #f59e0b, #f97316);
+		border-radius: 16rpx;
+		font-size: 18rpx;
+		color: #fff;
+		font-weight: 500;
+}
+.fp-title.data-v-8abb3ef4 {
+		font-size: 28rpx;
+		font-weight: 600;
+		color: #1a1a1a;
+		flex: 1;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+}
+.fp-desc.data-v-8abb3ef4 {
+		font-size: 22rpx;
+		color: #999;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+}
+.fp-tags.data-v-8abb3ef4 {
+		display: flex;
+		gap: 8rpx;
+}
+.fp-tag.data-v-8abb3ef4 {
+		font-size: 18rpx;
+		color: #6366f1;
+		background: #eef2ff;
+		padding: 2rpx 12rpx;
+		border-radius: 20rpx;
+}
+.fp-bottom.data-v-8abb3ef4 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 4rpx;
+}
+.fp-time.data-v-8abb3ef4 {
+		font-size: 22rpx;
+		color: #999;
+}
+.fp-actions.data-v-8abb3ef4 {
+		display: flex;
+		gap: 12rpx;
+		align-items: center;
+}
+.view-btn.data-v-8abb3ef4 {
+		padding: 6rpx 20rpx;
+		font-size: 22rpx;
+		color: #2c62ef;
+		border: 1rpx solid #2c62ef;
+		border-radius: 20rpx;
+		background: #fff;
+}
+.unfollow-btn-text.data-v-8abb3ef4 {
+		padding: 6rpx 20rpx;
+		font-size: 22rpx;
+		color: #f56c6c;
+		border: 1rpx solid #f56c6c;
+		border-radius: 20rpx;
+		background: #fff;
+}
+.loading-more.data-v-8abb3ef4 {
+		text-align: center;
+		padding: 40rpx 0;
+}
+.loading-more text.data-v-8abb3ef4 {
+		font-size: 26rpx;
+		color: #999;
+}
+.no-more.data-v-8abb3ef4 {
+		text-align: center;
+		padding: 40rpx 0;
+}
+.no-more text.data-v-8abb3ef4 {
+		font-size: 24rpx;
+		color: #ccc;
+}

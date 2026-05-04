@@ -1,0 +1,342 @@
+
+.app-container.data-v-58bfb2e3 {
+		width: 100%;
+		height: 100vh;
+		background-color: #f8fafc;
+}
+.scroll-container.data-v-58bfb2e3 {
+		width: 100%;
+		height: 100%;
+}
+.lecturer-detail.data-v-58bfb2e3 {
+		padding: 20rpx 24rpx;
+}
+.loading-state.data-v-58bfb2e3 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 120rpx 0;
+}
+.loading-text.data-v-58bfb2e3 {
+		font-size: 28rpx;
+		color: #999;
+}
+
+	/* 讲师卡片 */
+.lecturer-card.data-v-58bfb2e3 {
+		background: #ffffff;
+		border-radius: 20rpx;
+		padding: 32rpx;
+		margin-bottom: 20rpx;
+		box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.04);
+}
+.lecturer-header.data-v-58bfb2e3 {
+		display: flex;
+		align-items: center;
+		gap: 20rpx;
+		margin-bottom: 24rpx;
+}
+.lecturer-avatar.data-v-58bfb2e3 {
+		width: 120rpx;
+		height: 120rpx;
+		border-radius: 60rpx;
+		flex-shrink: 0;
+		background: #f1f5f9;
+		border: 2rpx solid #f0f0f0;
+}
+.lecturer-basic-info.data-v-58bfb2e3 {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 8rpx;
+}
+.lecturer-name.data-v-58bfb2e3 {
+		font-size: 36rpx;
+		font-weight: 700;
+		color: #1a1a1a;
+}
+.lecturer-stats.data-v-58bfb2e3 {
+		display: flex;
+		gap: 32rpx;
+}
+.stat-item.data-v-58bfb2e3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 2rpx;
+}
+.stat-value.data-v-58bfb2e3 {
+		font-size: 32rpx;
+		font-weight: 700;
+		color: #2c62ef;
+}
+.stat-label.data-v-58bfb2e3 {
+		font-size: 22rpx;
+		color: #999;
+}
+.lecturer-follow-btn.data-v-58bfb2e3 {
+		padding: 12rpx 32rpx;
+		background: linear-gradient(135deg, #2c62ef, #1a4bd1);
+		border-radius: 40rpx;
+		flex-shrink: 0;
+}
+.lecturer-follow-btn.followed.data-v-58bfb2e3 {
+		background: #e0e0e0;
+}
+.lecturer-follow-btn text.data-v-58bfb2e3 {
+		font-size: 26rpx;
+		color: #fff;
+		font-weight: 500;
+}
+.lecturer-follow-btn.followed text.data-v-58bfb2e3 {
+		color: #999;
+}
+.lecturer-desc-section.data-v-58bfb2e3 {
+		padding-top: 20rpx;
+		border-top: 1rpx solid #f0f0f0;
+		margin-top: 20rpx;
+		display: flex;
+		flex-direction: column;
+		gap: 12rpx;
+}
+.section-label.data-v-58bfb2e3 {
+		font-size: 26rpx;
+		color: #999;
+		font-weight: 500;
+}
+.section-content.data-v-58bfb2e3 {
+		font-size: 28rpx;
+		color: #333;
+		line-height: 1.6;
+}
+.expertise-tags.data-v-58bfb2e3 {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12rpx;
+}
+.expertise-tag.data-v-58bfb2e3 {
+		padding: 8rpx 20rpx;
+		background: #f5f6ff;
+		border: 1rpx solid #e4e7ed;
+		border-radius: 20rpx;
+		font-size: 24rpx;
+		color: #666;
+}
+
+	/* 内容Tab - 横向滚动 */
+.content-tabs.data-v-58bfb2e3 {
+		background: #fff;
+		border-radius: 16rpx;
+		padding: 8rpx 0;
+		margin-bottom: 16rpx;
+		box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
+		overflow: hidden;
+}
+.tabs-scroll.data-v-58bfb2e3 {
+		width: 100%;
+		white-space: nowrap;
+}
+.tabs-wrapper.data-v-58bfb2e3 {
+		display: inline-flex;
+		align-items: center;
+		gap: 4rpx;
+		padding: 0 16rpx;
+		flex-wrap: nowrap;
+}
+.tab-item.data-v-58bfb2e3 {
+		display: inline-flex;
+		align-items: center;
+		flex-direction: column;
+		gap: 6rpx;
+		padding: 16rpx 20rpx;
+		position: relative;
+		flex-shrink: 0;
+}
+.tab-label-row.data-v-58bfb2e3 {
+		display: flex;
+		align-items: center;
+		gap: 6rpx;
+}
+.tab-text.data-v-58bfb2e3 {
+		font-size: 26rpx;
+		color: #64748b;
+		font-weight: 450;
+		transition: all 0.2s ease;
+		white-space: nowrap;
+}
+.tab-item--active .tab-text.data-v-58bfb2e3 {
+		color: #2c62ef;
+		font-weight: 600;
+}
+.tab-count.data-v-58bfb2e3 {
+		font-size: 20rpx;
+		color: #999;
+		background: #f0f0f0;
+		padding: 2rpx 10rpx;
+		border-radius: 16rpx;
+}
+.tab-item--active .tab-count.data-v-58bfb2e3 {
+		color: #2c62ef;
+		background: #eef2ff;
+}
+
+	/* 内容列表 */
+.content-list.data-v-58bfb2e3 {
+		display: flex;
+		flex-direction: column;
+		gap: 16rpx;
+}
+.content-card.data-v-58bfb2e3 {
+		display: flex;
+		flex-direction: row;
+		background: #ffffff;
+		border-radius: 16rpx;
+		overflow: hidden;
+		box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
+		padding: 16rpx;
+}
+.card-cover.data-v-58bfb2e3 {
+		position: relative;
+		width: 200rpx;
+		height: 160rpx;
+		flex-shrink: 0;
+		border-radius: 12rpx;
+		overflow: hidden;
+		margin-right: 16rpx;
+}
+.cover-img.data-v-58bfb2e3 {
+		width: 100%;
+		height: 100%;
+		background: #f1f5f9;
+}
+.card-icon-wrapper.data-v-58bfb2e3 {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 200rpx;
+		height: 160rpx;
+		flex-shrink: 0;
+		margin-right: 16rpx;
+		background: #f1f5f9;
+		border-radius: 12rpx;
+}
+.card-file-icon.data-v-58bfb2e3 {
+		width: 80rpx;
+		height: 80rpx;
+}
+.card-type-badge.data-v-58bfb2e3 {
+		position: absolute;
+		top: 8rpx;
+		left: 8rpx;
+		padding: 2rpx 10rpx;
+		border-radius: 16rpx;
+		font-size: 18rpx;
+		color: #fff;
+}
+.badge-course.data-v-58bfb2e3 {
+		background: linear-gradient(135deg, #ff6b3d, #ff3b30);
+}
+.badge-courseware.data-v-58bfb2e3 {
+		background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+.badge-exam.data-v-58bfb2e3 {
+		background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+.badge-default.data-v-58bfb2e3 {
+		background: #999;
+}
+.card-info.data-v-58bfb2e3 {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 8rpx;
+		overflow: hidden;
+}
+.card-title-row.data-v-58bfb2e3 {
+		display: flex;
+		align-items: center;
+		gap: 8rpx;
+}
+.featured-badge.data-v-58bfb2e3 {
+		flex-shrink: 0;
+		padding: 2rpx 10rpx;
+		background: linear-gradient(135deg, #f59e0b, #f97316);
+		border-radius: 16rpx;
+		font-size: 18rpx;
+		color: #fff;
+		font-weight: 500;
+}
+.card-title.data-v-58bfb2e3 {
+		font-size: 28rpx;
+		font-weight: 600;
+		color: #1a1a1a;
+		flex: 1;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+}
+.card-desc.data-v-58bfb2e3 {
+		font-size: 22rpx;
+		color: #999;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+}
+.card-meta.data-v-58bfb2e3 {
+		font-size: 20rpx;
+		color: #bbb;
+}
+.card-footer.data-v-58bfb2e3 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 4rpx;
+}
+.card-price.data-v-58bfb2e3 {
+		font-size: 28rpx;
+		font-weight: bold;
+		color: #ff3b30;
+}
+.card-view-btn.data-v-58bfb2e3 {
+		padding: 6rpx 20rpx;
+		font-size: 22rpx;
+		color: #2c62ef;
+		border: 1rpx solid #2c62ef;
+		border-radius: 20rpx;
+		background: #fff;
+}
+.empty-state.data-v-58bfb2e3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 120rpx 0;
+}
+.empty-image.data-v-58bfb2e3 {
+		width: 240rpx;
+		height: 240rpx;
+		margin-bottom: 32rpx;
+		opacity: 0.5;
+}
+.empty-text.data-v-58bfb2e3 {
+		font-size: 28rpx;
+		color: #999;
+}
+.loading-more.data-v-58bfb2e3 {
+		text-align: center;
+		padding: 40rpx 0;
+}
+.loading-more text.data-v-58bfb2e3 {
+		font-size: 26rpx;
+		color: #999;
+}
+.no-more.data-v-58bfb2e3 {
+		text-align: center;
+		padding: 40rpx 0;
+}
+.no-more text.data-v-58bfb2e3 {
+		font-size: 24rpx;
+		color: #ccc;
+}

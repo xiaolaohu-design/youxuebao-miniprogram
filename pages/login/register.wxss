@@ -1,0 +1,298 @@
+
+	/*  外层容器样式  */
+.app-container.data-v-838b72c9 {
+		width: 100%;
+		height: 100vh;
+}
+.scroll-container.data-v-838b72c9 {
+		width: 100%;
+		height: 100%;
+}
+.login-wrapper.data-v-838b72c9 {
+		width: 100%;
+		background-color: #FFFFFF;
+		min-height: 100vh;
+}
+.register-container.data-v-838b72c9 {
+		padding: 0 20rpx;
+}
+
+	/*  顶部导航区  */
+.header-section.data-v-838b72c9 {
+		position: relative;
+		padding-top: 20rpx;
+}
+.nav-bar.data-v-838b72c9 {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		position: relative;
+		z-index: 100;
+}
+.close-btn.data-v-838b72c9 {
+		width: 80rpx;
+		height: 80rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: bold;
+		position: relative;
+		z-index: 101;
+		border-radius: 50%;
+		transition: background-color 0.3s;
+}
+.close-btn.data-v-838b72c9:active {
+		background-color: #F5F5F5;
+}
+.close-btn-hover.data-v-838b72c9 {
+		background-color: #F5F5F5;
+}
+.close-icon.data-v-838b72c9 {
+		font-size: 40rpx;
+		color: #333333;
+}
+.nav-spacer.data-v-838b72c9 {
+		flex: 1;
+}
+.login-btn-nav.data-v-838b72c9 {
+		font-size: 30rpx;
+		color: #646464;
+		background-color: #FFFFFF;
+		border: none;
+		padding: 10rpx 20rpx;
+		margin-right: 0;
+		position: relative;
+		z-index: 101;
+}
+.login-btn-nav.data-v-838b72c9::after {
+		border: none;
+}
+.login-btn-nav.data-v-838b72c9:active {
+		opacity: 0.7;
+}
+
+	/* 注册标题 */
+.register-title.data-v-838b72c9 {
+		margin-top: 20rpx;
+}
+.title-text.data-v-838b72c9 {
+		font-weight: bold;
+		font-size: 44rpx;
+		color: #000000;
+}
+
+	/*  标题占位  */
+.title-spacer.data-v-838b72c9 {
+		padding-bottom: 70rpx;
+}
+
+	/*  表单区域  */
+.form-wrapper.data-v-838b72c9 {
+		padding: 0 20rpx;
+}
+.input-group.data-v-838b72c9 {
+		margin-bottom: 20rpx;
+		border-bottom: 1px solid #E5E5E5;
+}
+.code-group.data-v-838b72c9 {
+		display: flex;
+		align-items: stretch;
+		margin-top: 60rpx;
+}
+.form-input.data-v-838b72c9 {
+		padding: 20rpx;
+		color: #000000;
+		font-size: 30rpx;
+		width: 100%;
+}
+.flex-input.data-v-838b72c9 {
+		flex: 1;
+}
+.code-btn.data-v-838b72c9 {
+		width: 150rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 28rpx;
+		border-bottom: 1px solid #E5E5E5;
+}
+
+	/*  操作区域  */
+.action-wrapper.data-v-838b72c9 {
+		padding: 20rpx 20rpx;
+}
+.register-submit-btn.data-v-838b72c9 {
+		width: 100%;
+		height: 90rpx;
+		line-height: 90rpx;
+		background-color: #2C62EF;
+		color: #FFFFFF;
+		font-size: 30rpx;
+		border-radius: 50rpx;
+		border: 0;
+		margin-top: 80rpx;
+		position: relative;
+}
+.register-submit-btn.data-v-838b72c9::after {
+		border: none;
+}
+.btn-disabled.data-v-838b72c9 {
+		opacity: 0.5;
+}
+.spacer.data-v-838b72c9 {
+		height: 30rpx;
+}
+
+	/*  协议勾选  */
+.agreement-wrapper.data-v-838b72c9 {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+}
+.checkbox-custom.data-v-838b72c9 {
+		display: flex;
+		align-items: center;
+		margin-right: 10rpx;
+}
+.checkbox-box.data-v-838b72c9 {
+		width: 30rpx;
+		height: 30rpx;
+		border: 2rpx solid #C9C9C9;
+		border-radius: 50%;
+		margin-top: 8rpx;
+		margin-left: 10rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: all 0.3s;
+}
+.checkbox-checked.data-v-838b72c9 {
+		background-color: #2C62EF;
+		border-color: #2C62EF;
+}
+.checkbox-icon.data-v-838b72c9 {
+		color: #FFFFFF;
+		font-size: 20rpx;
+		font-weight: bold;
+}
+.agreement-text.data-v-838b72c9 {
+		font-size: 26rpx;
+		color: #646464;
+		margin-left: 10rpx;
+		line-height: 1.5;
+}
+.link-text.data-v-838b72c9 {
+		color: #2C62EF;
+		font-size: 26rpx;
+}
+
+	/*  微信注册区域  */
+.wechat-wrapper.data-v-838b72c9 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20rpx 0 30rpx;
+		margin-top: 120rpx;
+}
+.wechat-btn.data-v-838b72c9 {
+		background-color: #FFFFFF;
+		border: none;
+		padding: 0;
+}
+.wechat-btn.data-v-838b72c9::after {
+		border: none;
+}
+.wechat-content.data-v-838b72c9 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 8rpx;
+}
+.wechat-text.data-v-838b72c9 {
+		font-size: 24rpx;
+		color: #646464;
+		text-align: center;
+		line-height: 1;
+}
+
+	/*  协议弹窗  */
+.agreement-modal.data-v-838b72c9 {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1000;
+}
+.agreement-content.data-v-838b72c9 {
+		width: 85%;
+		height: 70%;
+		max-height: 80vh;
+		background-color: #FFFFFF;
+		border-radius: 20rpx;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+}
+.agreement-header.data-v-838b72c9 {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 30rpx;
+		border-bottom: 1px solid #E5E5E5;
+		flex-shrink: 0;
+}
+.agreement-title.data-v-838b72c9 {
+		font-size: 32rpx;
+		font-weight: bold;
+		color: #333333;
+		flex: 1;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		margin-right: 20rpx;
+}
+.agreement-close.data-v-838b72c9 {
+		width: 60rpx;
+		height: 60rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 36rpx;
+		color: #999999;
+		flex-shrink: 0;
+}
+.agreement-body.data-v-838b72c9 {
+		flex: 1;
+		overflow: hidden;
+		height: 0;
+}
+.agreement-text-wrapper.data-v-838b72c9 {
+		padding: 30rpx;
+}
+.agreement-footer.data-v-838b72c9 {
+		padding: 20rpx 30rpx;
+		border-top: 1px solid #E5E5E5;
+		flex-shrink: 0;
+}
+.agreement-btn.data-v-838b72c9 {
+		width: 100%;
+		height: 80rpx;
+		line-height: 80rpx;
+		background-color: #2C62EF;
+		color: #FFFFFF;
+		font-size: 28rpx;
+		border-radius: 40rpx;
+		border: none;
+		text-align: center;
+}
+.agreement-btn.data-v-838b72c9::after {
+		border: none;
+}
