@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "公共课件",
+  "usingComponents": {
+    "uni-search-bar": "../uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uni-icons": "../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-popup": "../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

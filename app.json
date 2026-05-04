@@ -1,0 +1,80 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/resource/resource",
+    "pages/message/message",
+    "pages/my/my",
+    "components/course",
+    "pages/course/videocourse",
+    "pages/course/audiocourse",
+    "pages/course/imagecourse",
+    "pages/course/specialcourse",
+    "components/courseware",
+    "pages/courseware/courseware",
+    "pages/courseware/specialcourseware",
+    "components/exampaper",
+    "pages/exampaper/exampaper",
+    "pages/exampaper/specialexampaper",
+    "pages/exampaper/groupexampaper",
+    "pages/practice/practice",
+    "pages/practice/practicedetail",
+    "pages/practice/titledetail",
+    "pages/order/order",
+    "pages/setting/setting",
+    "pages/news/news",
+    "pages/coupon/coupon",
+    "pages/exchange/exchange",
+    "pages/exchange/exchangelist",
+    "pages/history/browse",
+    "pages/history/favorite",
+    "pages/history/follow",
+    "pages/history/download",
+    "pages/lecturer/lecturer",
+    "pages/about/about",
+    "pages/benefits/benefits",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/login/forget"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
+    "enableShareAppMessage": true,
+    "enableShareTimeline": true
+  },
+  "tabBar": {
+    "color": "#323232",
+    "selectedColor": "#2c62ef",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tabbar/index_tabbar.png",
+        "selectedIconPath": "/static/tabbar/index_tabbar_selected.png"
+      },
+      {
+        "pagePath": "pages/resource/resource",
+        "text": "资源",
+        "iconPath": "/static/tabbar/my_course_tabbar.png",
+        "selectedIconPath": "/static/tabbar/my_course_selected.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/static/tabbar/message_tabbar.png",
+        "selectedIconPath": "/static/tabbar/message-selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/static/tabbar/my_tabbar.png",
+        "selectedIconPath": "/static/tabbar/my_tabbar_selected.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
